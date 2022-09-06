@@ -1,0 +1,35 @@
+.tab-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75vh;
+    margin: 20px 0px;
+}
+
+.tab {
+    color: #8896AB;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.selected {
+    color: #22C55E;
+    font-weight: 500;
+    background-color: #BBF7D0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 810px) {
+    .tab-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tab-container {
+        justify-content: unset;
+    }
+}

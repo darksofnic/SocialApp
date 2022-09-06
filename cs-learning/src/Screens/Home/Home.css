@@ -1,0 +1,414 @@
+/* Screen */      
+.screen{
+    background-color: #F7F8F9;
+    height: max-content;
+    padding: 0 100px;
+}
+/* Container */
+.login-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    
+}
+
+.login-container div {
+    margin: 0 5%;
+    flex: 1;
+}
+
+/* Sets the check icons/Style */
+.icon {
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    color: #556987;
+}
+
+.icon i {
+    color: var(--logo-color);
+    padding-right: 10px;
+}
+
+/* Header styling */
+.header {
+    font-weight: bold;
+    color: var(--dark-blue);
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+/* Paragraph */
+.description {
+    color: #556987;
+    font-size: 1.5em;
+}
+
+/* Card */
+/* Header */
+.card {
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px rgb(0 0 0/0.1);
+    background-color: white;
+    height: max-content;
+}
+
+.card h1,
+.card h4 {
+    text-align: center;
+}
+.card h1{
+    color: var(--dark-blue);
+}
+.card h4{
+    color: #556987;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Email input */
+.card .emailInput {
+    padding: 0 10%;
+    width: 80%;
+}
+
+.card .emailInput label {
+    font-size: 14px;
+    color: #333F51;
+    font-weight: bold;
+}
+
+.card .emailInput input {
+    width: 100%;
+    margin-top: 5px;
+    height: 30px;
+    border: 1px solid rgb(0 0 0/0.1);
+    border-radius: 4px;
+}
+
+.card .emailInput input::placeholder {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0 0 0/0.3);
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.card .emailInput .submit {
+    background-color: var(--logo-color);
+    color: white;
+    width: calc(100% + 7px);
+}
+
+/* separator */
+
+.separator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 2px 0 !important;
+}
+
+.separator .line {
+    width: 100%;
+    height: 1px;
+    flex: 9;
+    background-color: rgb(0 0 0/0.1);
+}
+
+.separator h2 {
+    flex: 1;
+    color: rgb(0 0 0/0.3);
+    font-size: 10px;
+}
+
+/* Already have account */
+.haveAcc{
+    text-align: center;
+    font-size: 14px;
+    color: #8896AB;
+}
+.haveAcc a{
+    text-decoration: none;
+    color: var(--logo-color);
+}
+
+/* Analitics */
+.analytics{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.analytics h4{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.analytic-cards{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.analytic-cards div{
+    flex: 1 30%;
+    height: max-content;
+}
+.analytic-single-card{
+    margin: 0 auto;
+    width: 70%;
+    height: max-content;
+}
+.analytic-single-card p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #556987;
+}
+.analytic-single-card img{
+    background-color: var(--logo-color);
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+}
+/* Hotizontal Card */
+.horizontal_card_container{
+    padding: 100px 0;
+    width: 100%;
+}
+.horizontal_card{
+    width: 100%;
+    min-height: 290px;
+    max-height: max-content;
+    background-color: #2C3544;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal_card .text{
+    flex: 1;
+}
+.horizontal_card .text .innerText{
+    width: 70%;
+    margin: 0 auto;
+}
+.horizontal_card .text .innerText h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.horizontal_card .text .innerText p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #8896AB;
+}
+.horizontal_card .buttons{
+    flex: 1;
+}
+.horizontal_card .buttons .innerButtons{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+/* Informatin Picture */
+.info_pic .info_pic_header{
+    width: 80%;
+}
+.info_pic .info_pic_header h1{
+    font-size: 2.5em;
+    color: var(--dark-blue);
+}
+.info_pic .info_pic_header h4{
+    font-size: 1.5em;
+    color: #556987;
+}
+.info_pic .info_pic_1{
+    display: flex;
+    margin: 55px 0;
+}
+.info_pic .info_pic_1 div{
+    flex: 1 50%;
+    align-self: center;
+}
+.info_pic .info_pic_1 .info_pic_information .info_pic_card{
+    width: 80%;
+    margin: 40px auto;
+}
+.info_pic .info_pic_1 .info_pic_information .info_pic_card img{
+    float: left;
+    height: 85px;
+}
+.info_pic .info_pic_1 .info_pic_information .info_pic_card h1{
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+.info_pic .info_pic_1 .info_pic_information .info_pic_card p{
+    margin-left: 85px;
+}
+.info_pic .info_pic_1 .info_pic_picture{
+    display: flex;
+    justify-content: center;
+}
+.info_pic .info_pic_1 .info_pic_picture img{
+    width: 100%;
+    max-height: 550px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.info_pic .info_pic_1 .info_pic_information .info_pic_information_inner{
+    margin: 0 auto;
+    width: 80%;
+}
+.info_pic .info_pic_1 .info_pic_information .info_pic_information_inner h1{
+    color: var(--dark-blue);
+    font-size: 2.5em;
+}
+.info_pic .info_pic_1 .info_pic_information .info_pic_information_inner p{
+    color: #556987;
+    font-size: 1.2em;
+}
+/* Numbers */
+.numbers{
+    margin: 100px 0;
+}
+.numbers .numbers_header{
+    text-align: center;
+}
+.numbers .numbers_header h5{
+    margin: 0 auto;
+}
+.numbers .numbers_header h1{
+    color: var(--dark-blue);
+    font-size: 2.5em;
+}
+.numbers .numbers_header p{
+    color: #556987;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+}
+.numbers .numbers_info{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.numbers .numbers_info *{
+    text-align: center;
+    flex: 1 25%;
+}
+.numbers .numbers_info h1{
+    color: var(--logo-color);
+    margin: 0;
+    font-size: 3em;
+}
+.numbers .numbers_info h3{
+    color: #556987;
+}
+@media screen and (max-width: 999px) {
+    .screen{
+        padding: 0 40px;
+    }
+    .login-container {
+        flex-direction: column;
+    }
+    .login-container .info{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .analytic-cards{
+        gap: 0;
+    }
+    .analytic-cards div{
+        flex: 1 50%;
+        margin-top: 20px;
+    }
+    .horizontal_card{
+        flex-direction: column;
+    }
+    .info_pic .info_pic_header {
+        width: 100%;
+        text-align: center;
+    }
+    .info_pic .info_pic_1{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .info_pic .info_pic_middle{
+        flex-direction: column-reverse;
+    }
+    .info_pic .info_pic_1 div{
+        flex: 1 100%;
+        text-align: center;
+    }
+    .info_pic_1 .info_pic_picture{
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width:899px) {
+    .numbers .numbers_info *{
+    flex: 1 50%;
+    }
+}
+@media screen and (max-width:599px) {
+    .screen{
+        padding: 0;
+    }
+    .login-container .info h5{
+        margin: 0 auto;
+    }
+    .login-container .info h1,.numbers_header h1,.card h1,.info_pic_header h1,
+    .info_pic_information_inner h1{
+        font-size: 1.8em !important;
+    }
+    .login-container .info .description,.card h4,.numbers_header p,.numbers .numbers_info h3,.info_pic_header h4,
+     .info_pic_card p,.info_pic_information_inner p{
+        font-size: 1em !important;
+    }
+    .login-container .info .icon{
+        font-size: 16px;
+    }
+
+    .card .emailInput button{
+        font-size: 14px;
+    }
+    .analytics h1,.info_pic_information .info_pic_card h1{
+        font-size: 1.7em;
+    }
+    .analytic-cards div{
+        flex: 1 100%;
+    }
+    .horizontal_card_container .horizontal_card .text .innerText h1{
+        text-align: center;
+        font-size: 1.8em;
+    }
+    .horizontal_card_container .horizontal_card .text .innerText p{
+        font-size: 1em;
+        text-align: center;
+    }
+    .buttons .innerButtons button, .info_pic_information_inner button{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .numbers .numbers_info h1{
+        font-size: 2em;
+    }
+    .info_pic{
+        padding: 10px;
+    }
+    .info_pic_card{
+        width: 95% !important;
+    }
+    .info_pic_card img{
+        height: 70px !important;
+    }
+    .info_pic_card p{
+        margin: 0;
+    }
+}

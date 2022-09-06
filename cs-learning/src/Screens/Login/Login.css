@@ -1,0 +1,107 @@
+    .box {
+        position: relative;
+        border: none;/*1px solid rgb(139, 139, 139);*/
+        
+        border-radius: 2.5px;
+        margin: 25px auto;
+        padding: 200px;
+        width: max-content;
+        box-shadow: 0 50px 250px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    input[type=checkbox]{
+        size:10px;
+        border: none;
+        border-bottom: 0.6px solid #22C55E;  
+        color: rgb(161, 161, 161);
+    }
+
+    input{
+        /*  border: none;
+        border-bottom: 0.6px solid #22C55E;  
+        box-sizing: border-box;
+
+       Auto layout */
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 7px;
+        gap: 8px;
+        
+        width: 200px;
+        height: 25px;
+        
+        /* White */
+        
+        background: #FFFFFF;
+        /* Gray/200 */
+        
+        border: 1px solid #D5DAE1;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    input:hover {
+        box-shadow: #000;;
+        transition: 0.7;
+    }
+
+    button {
+        /* Button */
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 18px;
+        gap: 8px;
+        border:none;
+        
+        position: flex;
+        width: 200px;
+        height: 46px;
+        left: 0px;
+        top: 288px;
+
+        /* Primary/500 */
+
+        background: #22C55E;
+        box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+        border-radius: 6px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+            
+            
+        /* Primary/050 */
+            
+        color: #F0FDF4;
+            
+    }
+    button:hover:enabled {
+        background: #28ac58;
+        border: 0.5px solid #101b10;
+        color: white;
+    }
+
+
+    label {
+        font-family: 'Poppins';
+        font-style: normal;
+    }
+
+    .hlink {
+        text-decoration: none;
+        text-shadow: 1px 1px 1px rgb(83, 83, 83);
+        color: #22C55E;
+
+    }

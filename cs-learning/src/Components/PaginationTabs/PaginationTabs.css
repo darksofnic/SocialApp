@@ -1,0 +1,25 @@
+.pagination-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page-tab, .page-tab-previous, .page-tab-next {
+    color: #BBC3CF;
+    border: 1px #EEF0F3 solid;
+    padding: 15px;
+}
+
+.page-tab-previous {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.page-tab-next {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.active {
+    color: #22C55E!important;
+}
